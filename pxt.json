@@ -1,0 +1,31 @@
+{
+    "name": "Freedom Turkey Game PRATEEK!",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "turkey_imgs": "github:kiki-lee/turkey_imgs",
+        "carnival": "github:microsoft/arcade-carnival#v0.0.7",
+        "arcade-block-icons": "github:kiki-lee/arcade-block-icons#v0.0.13"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "tutorial.custom.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "pyprj"
+}
